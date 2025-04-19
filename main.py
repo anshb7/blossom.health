@@ -112,7 +112,7 @@ def generate_insight():
 def setup_llm():
     """Setup the LLM for chat interactions"""
     try:
-        llm = Ollama(base_url="https://a0d6-2a09-bac1-36c0-40-00-243-6.ngrok-free.app",model="llama3")
+        llm = Ollama(base_url="https://aa48-2a09-bac1-36c0-40-00-243-6.ngrok-free.app",model="llama3")
         
         template = """
         You are Bloom, an empathetic AI assistant specializing in women's hormonal health and wellness.
