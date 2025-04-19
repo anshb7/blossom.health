@@ -181,7 +181,7 @@ def render_onboarding():
         # Add welcome message
         st.session_state.messages.append({
             "role": "assistant", 
-            "content": f"Hi {name}! I'm Blossom, your hormonal wellness companion. How are you feeling today?"
+            "content": f"Hi {name}! I'm Bloom, your hormonal wellness companion. How are you feeling today?"
         })
         st.rerun()
 
